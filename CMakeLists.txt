@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.17)
+project(CPPNeuralNetwork)
+include_directories(${PROJECT_SOURCE_DIR} [headers src])
+set(CMAKE_CXX_STANDARD 14)
+add_executable(CPPNeuralNetwork main.cpp src/Perceptron.cpp headers/Layer.h src/Layer.cpp headers/NeuralNetwork.h src/NeuralNetwork.cpp headers/DataUtils.h src/DataUtils.cpp)

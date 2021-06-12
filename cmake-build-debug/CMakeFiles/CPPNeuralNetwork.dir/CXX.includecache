@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../headers/Layer.h
+string
+-
+vector
+-
+Perceptron.h
+../headers/Perceptron.h
+
+../headers/NeuralNetwork.h
+Layer.h
+../headers/Layer.h
+iostream
+-
+tuple
+-
+
+../headers/Perceptron.h
+string
+-
+vector
+-
+
+C:/Users/vitos/CLionProjects/CPPNeuralNetwork/main.cpp
+iostream
+-
+headers/NeuralNetwork.h
+-
+
